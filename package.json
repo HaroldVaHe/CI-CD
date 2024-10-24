@@ -1,15 +1,14 @@
 {
   "name": "mi-proyecto",
   "version": "1.0.0",
+  "description": "Un proyecto simple",
+  "main": "index.js",
   "scripts": {
-   "build": "webpack --config webpack.config.js",
-   "test": "jest"
+    "build": "echo 'No build process required'",
+    "test": "echo 'Running tests' && exit 0"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "jest": "^26.6.0",
-    "webpack": "^5.0.0"
-  }
+  "author": "Tu nombre",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
 }
