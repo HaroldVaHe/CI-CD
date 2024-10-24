@@ -2,6 +2,7 @@
   "name": "mi-proyecto",
   "version": "1.0.0",
   "scripts": {
+   "build": "webpack --config webpack.config.js",
    "test": "jest"
   },
   "dependencies": {
